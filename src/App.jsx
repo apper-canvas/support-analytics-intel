@@ -1,4 +1,4 @@
-import { Navigate, Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import DashboardPage from "@/components/pages/DashboardPage";
 import React from "react";
@@ -9,7 +9,7 @@ import AILogsPage from "@/components/pages/AILogsPage";
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <div>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -33,9 +33,9 @@ const App = () => {
           pauseOnHover
           theme="light"
           className="z-[9999]"
-        />
+/>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 };
 
