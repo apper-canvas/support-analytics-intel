@@ -61,10 +61,19 @@ const AILogsPage = () => {
         <div className="text-gray-600">{value}</div>
       )
     },
-    {
+{
       key: "logLevel",
       header: "Log Level",
       render: (value) => <LogLevelBadge level={value} />
+    },
+    {
+      key: "message",
+      header: "Message",
+      render: (value) => (
+        <div className="text-gray-700 max-w-md truncate" title={value}>
+          {value}
+        </div>
+      )
     }
   ];
 
@@ -123,7 +132,7 @@ const AILogsPage = () => {
         </div>
       </div>
 
-      <DataTable columns={columns} data={logs} />
+<DataTable columns={columns} data={logs} sortable={true} />
     </motion.div>
   );
 };

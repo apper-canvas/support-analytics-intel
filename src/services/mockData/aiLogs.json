@@ -5,7 +5,8 @@
     "user": "sarah.johnson@company.com",
     "app": "Customer Portal",
     "eventType": "Query Processing",
-    "logLevel": "Info"
+    "logLevel": "Info",
+    "message": "Successfully processed user query for product recommendations. Generated 12 relevant suggestions in 0.8 seconds."
   },
   {
     "Id": 2,
@@ -13,7 +14,8 @@
     "user": "michael.chen@techcorp.com",
     "app": "Analytics Dashboard",
     "eventType": "Data Analysis",
-    "logLevel": "Info"
+    "logLevel": "Info",
+    "message": "Completed trend analysis for Q1 sales data. Identified 3 key growth patterns and generated visualization charts."
   },
   {
     "Id": 3,
@@ -21,7 +23,8 @@
     "user": "david.wilson@enterprise.com",
     "app": "API Gateway",
     "eventType": "Authentication",
-    "logLevel": "Warning"
+    "logLevel": "Warning",
+    "message": "Multiple failed authentication attempts detected from IP 192.168.1.45. User temporarily rate-limited for security."
   },
   {
     "Id": 4,
@@ -29,7 +32,8 @@
     "user": "robert.thompson@solutions.org",
     "app": "Customer Portal",
     "eventType": "Content Generation",
-    "logLevel": "Info"
+    "logLevel": "Info",
+    "message": "AI-generated product description for item SKU-4729. Content optimized for SEO with 95% readability score."
   },
   {
     "Id": 5,
@@ -37,7 +41,8 @@
     "user": "james.parker@systems.co",
     "app": "Admin Console",
     "eventType": "System Check",
-    "logLevel": "Error"
+    "logLevel": "Error",
+    "message": "Critical system health check failed. Database connection timeout after 30 seconds. Automatic failover initiated."
   },
   {
     "Id": 6,
@@ -45,7 +50,8 @@
     "user": "sarah.johnson@company.com",
     "app": "Analytics Dashboard",
     "eventType": "Report Generation",
-    "logLevel": "Info"
+    "logLevel": "Info",
+    "message": "Monthly performance report generated successfully. Processed 45,293 data points across 8 different metrics."
   },
   {
     "Id": 7,
@@ -53,7 +59,8 @@
     "user": "michael.chen@techcorp.com",
     "app": "API Gateway",
     "eventType": "Rate Limiting",
-    "logLevel": "Warning"
+    "logLevel": "Warning",
+    "message": "API rate limit threshold reached for endpoint /api/v1/search. Requests throttled to 100/minute for user session."
   },
   {
     "Id": 8,
@@ -61,7 +68,8 @@
     "user": "david.wilson@enterprise.com",
     "app": "Customer Portal",
     "eventType": "Search Query",
-    "logLevel": "Info"
+    "logLevel": "Info",
+    "message": "Semantic search completed for query 'wireless headphones under $100'. Returned 24 relevant results with 92% accuracy."
   },
   {
     "Id": 9,
@@ -69,7 +77,8 @@
     "user": "robert.thompson@solutions.org",
     "app": "Reporting Tool",
     "eventType": "Data Export",
-    "logLevel": "Error"
+    "logLevel": "Error",
+    "message": "Data export failed due to insufficient disk space. Required 2.4GB, available 1.8GB. Export queued for retry."
   },
   {
     "Id": 10,
@@ -77,6 +86,7 @@
     "user": "james.parker@systems.co",
     "app": "Analytics Dashboard",
     "eventType": "Visualization",
-    "logLevel": "Info"
+    "logLevel": "Info",
+    "message": "Interactive chart visualization created for customer engagement metrics. Rendered 5 chart types with real-time data updates."
   }
 ]
