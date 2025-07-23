@@ -1,11 +1,10 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
+import ApperIcon from "@/components/ApperIcon";
 import { cn } from "@/utils/cn";
-import { ApperIcon } from "@/components/ApperIcon";
 
 const DataTable = ({ columns, data, className, sortable = false }) => {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
-
   const handleSort = (key) => {
     if (!sortable) return;
     
