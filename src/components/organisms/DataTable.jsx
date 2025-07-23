@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import ApperIcon from "@/components/ApperIcon";
 import { cn } from "@/utils/cn";
 
-const DataTable = ({ columns, data, className, sortable = false }) => {
+const DataTable = ({ columns, data, className, sortable = false, onRowClick }) => {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
   const handleSort = (key) => {
     if (!sortable) return;
@@ -86,11 +86,15 @@ const DataTable = ({ columns, data, className, sortable = false }) => {
             {sortedData.map((row, rowIndex) => (
               <motion.tr
                 key={row.Id}
-                className="hover:bg-gray-50 transition-colors duration-150"
+                className={cn(
+                  "hover:bg-gray-50 transition-colors duration-150",
+                  onRowClick && "cursor-pointer hover:bg-blue-50"
+                )}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: rowIndex * 0.05 }}
-                whileHover={{ backgroundColor: "#f9fafb" }}
+                whileHover={{ backgroundColor: onRowClick ? "#eff6ff" : "#f9fafb" }}
+                onClick={() => onRowClick && onRowClick(row)}
               >
                 {columns.map((column, colIndex) => (
                   <td
