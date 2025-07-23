@@ -41,7 +41,7 @@ class UserService {
     return { ...usersData[index] };
   }
 
-  async delete(id) {
+async delete(id) {
     await delay(250);
     const index = usersData.findIndex(user => user.Id === parseInt(id));
     if (index === -1) {
@@ -49,7 +49,6 @@ class UserService {
     }
     const deletedUser = usersData.splice(index, 1)[0];
     return { ...deletedUser };
-return { ...deletedUser };
   }
 
   async search(searchTerm, statusFilter = null) {
