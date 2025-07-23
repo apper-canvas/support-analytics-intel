@@ -3,7 +3,7 @@ import { format } from "date-fns";
 import { motion } from "framer-motion";
 import userService from "@/services/api/userService";
 import ApperIcon from "@/components/ApperIcon";
-import { Button } from "@/components/atoms/Button";
+import Button from "@/components/atoms/Button";
 import DataTable from "@/components/organisms/DataTable";
 import StatusBadge from "@/components/molecules/StatusBadge";
 import Loading from "@/components/ui/Loading";
