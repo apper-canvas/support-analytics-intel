@@ -3,42 +3,90 @@
     "Id": 1,
     "appName": "Customer Portal",
     "createdDate": "2023-08-15",
-    "status": "Active",
-    "totalUsers": 2847
+    "status": "Healthy",
+    "totalUsers": 2847,
+    "performanceScore": 92,
+    "lastUpdated": "2024-01-15T10:30:00Z"
   },
   {
     "Id": 2,
     "appName": "Analytics Dashboard",
     "createdDate": "2023-09-22",
-    "status": "Active",
-    "totalUsers": 1253
+    "status": "Healthy",
+    "totalUsers": 1253,
+    "performanceScore": 88,
+    "lastUpdated": "2024-01-14T14:22:00Z"
   },
   {
     "Id": 3,
     "appName": "Mobile App",
     "createdDate": "2023-10-10",
-    "status": "Development",
-    "totalUsers": 0
+    "status": "Warning",
+    "totalUsers": 456,
+    "performanceScore": 67,
+    "lastUpdated": "2024-01-12T09:15:00Z"
   },
   {
     "Id": 4,
     "appName": "API Gateway",
     "createdDate": "2023-07-03",
-    "status": "Active",
-    "totalUsers": 3892
+    "status": "Healthy",
+    "totalUsers": 3892,
+    "performanceScore": 95,
+    "lastUpdated": "2024-01-15T16:45:00Z"
   },
   {
     "Id": 5,
     "appName": "Admin Console",
     "createdDate": "2023-11-08",
-    "status": "Active",
-    "totalUsers": 156
+    "status": "Healthy",
+    "totalUsers": 156,
+    "performanceScore": 84,
+    "lastUpdated": "2024-01-13T11:20:00Z"
   },
   {
     "Id": 6,
     "appName": "Reporting Tool",
     "createdDate": "2024-01-20",
-    "status": "Maintenance",
-    "totalUsers": 789
+    "status": "Critical",
+    "totalUsers": 789,
+    "performanceScore": 34,
+    "lastUpdated": "2024-01-10T08:30:00Z"
+  },
+  {
+    "Id": 7,
+    "appName": "E-commerce Platform",
+    "createdDate": "2023-12-05",
+    "status": "Healthy",
+    "totalUsers": 5234,
+    "performanceScore": 89,
+    "lastUpdated": "2024-01-15T13:10:00Z"
+  },
+  {
+    "Id": 8,
+    "appName": "Inventory Management",
+    "createdDate": "2023-06-18",
+    "status": "Warning",
+    "totalUsers": 321,
+    "performanceScore": 72,
+    "lastUpdated": "2024-01-11T15:45:00Z"
+  },
+  {
+    "Id": 9,
+    "appName": "Payment Gateway",
+    "createdDate": "2023-09-30",
+    "status": "Healthy",
+    "totalUsers": 4156,
+    "performanceScore": 96,
+    "lastUpdated": "2024-01-15T12:00:00Z"
+  },
+  {
+    "Id": 10,
+    "appName": "Support Ticketing",
+    "createdDate": "2023-11-15",
+    "status": "Warning",
+    "totalUsers": 234,
+    "performanceScore": 58,
+    "lastUpdated": "2024-01-09T17:20:00Z"
   }
 ]

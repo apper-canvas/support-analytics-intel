@@ -30,7 +30,7 @@ const AppsPage = () => {
     loadApps();
   }, []);
 
-  const columns = [
+const columns = [
     {
       key: "appName",
       header: "App Name",
@@ -39,25 +39,53 @@ const AppsPage = () => {
       )
     },
     {
-      key: "createdDate",
-      header: "Created Date",
-      render: (value) => (
-        <div className="text-gray-600">
-          {format(new Date(value), "MMM dd, yyyy")}
-        </div>
-      )
-    },
-    {
       key: "status",
       header: "Status",
       render: (value) => <StatusBadge status={value} />
     },
     {
+      key: "performanceScore",
+      header: "Performance Score",
+      render: (value) => {
+        const getScoreColor = (score) => {
+          if (score >= 85) return "text-green-600 bg-green-50";
+          if (score >= 70) return "text-yellow-600 bg-yellow-50";
+          return "text-red-600 bg-red-50";
+        };
+        
+        return (
+          <div className="flex items-center space-x-2">
+            <div className={`px-2 py-1 rounded-full text-sm font-semibold ${getScoreColor(value)}`}>
+              {value}
+            </div>
+            <div className="w-16 bg-gray-200 rounded-full h-2">
+              <div
+                className={`h-2 rounded-full ${
+                  value >= 85 ? 'bg-green-500' : 
+                  value >= 70 ? 'bg-yellow-500' : 'bg-red-500'
+                }`}
+                style={{ width: `${value}%` }}
+              ></div>
+            </div>
+          </div>
+        );
+      }
+    },
+    {
       key: "totalUsers",
-      header: "Total Users",
+      header: "Users Count",
       render: (value) => (
         <div className="font-semibold text-gray-900">
           {value.toLocaleString()}
+        </div>
+      )
+    },
+    {
+      key: "lastUpdated",
+      header: "Last Updated",
+      render: (value) => (
+        <div className="text-gray-600">
+          {format(new Date(value), "MMM dd, yyyy 'at' HH:mm")}
         </div>
       )
     }
