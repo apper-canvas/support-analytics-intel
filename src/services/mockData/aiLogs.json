@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "timestamp": "2024-03-12T14:35:22Z",
+    "user": "sarah.johnson@company.com",
+    "app": "Customer Portal",
+    "eventType": "Query Processing",
+    "logLevel": "Info"
+  },
+  {
+    "Id": 2,
+    "timestamp": "2024-03-12T14:33:45Z",
+    "user": "michael.chen@techcorp.com",
+    "app": "Analytics Dashboard",
+    "eventType": "Data Analysis",
+    "logLevel": "Info"
+  },
+  {
+    "Id": 3,
+    "timestamp": "2024-03-12T14:30:18Z",
+    "user": "david.wilson@enterprise.com",
+    "app": "API Gateway",
+    "eventType": "Authentication",
+    "logLevel": "Warning"
+  },
+  {
+    "Id": 4,
+    "timestamp": "2024-03-12T14:28:12Z",
+    "user": "robert.thompson@solutions.org",
+    "app": "Customer Portal",
+    "eventType": "Content Generation",
+    "logLevel": "Info"
+  },
+  {
+    "Id": 5,
+    "timestamp": "2024-03-12T14:25:33Z",
+    "user": "james.parker@systems.co",
+    "app": "Admin Console",
+    "eventType": "System Check",
+    "logLevel": "Error"
+  },
+  {
+    "Id": 6,
+    "timestamp": "2024-03-12T14:22:07Z",
+    "user": "sarah.johnson@company.com",
+    "app": "Analytics Dashboard",
+    "eventType": "Report Generation",
+    "logLevel": "Info"
+  },
+  {
+    "Id": 7,
+    "timestamp": "2024-03-12T14:18:41Z",
+    "user": "michael.chen@techcorp.com",
+    "app": "API Gateway",
+    "eventType": "Rate Limiting",
+    "logLevel": "Warning"
+  },
+  {
+    "Id": 8,
+    "timestamp": "2024-03-12T14:15:29Z",
+    "user": "david.wilson@enterprise.com",
+    "app": "Customer Portal",
+    "eventType": "Search Query",
+    "logLevel": "Info"
+  },
+  {
+    "Id": 9,
+    "timestamp": "2024-03-12T14:12:55Z",
+    "user": "robert.thompson@solutions.org",
+    "app": "Reporting Tool",
+    "eventType": "Data Export",
+    "logLevel": "Error"
+  },
+  {
+    "Id": 10,
+    "timestamp": "2024-03-12T14:09:14Z",
+    "user": "james.parker@systems.co",
+    "app": "Analytics Dashboard",
+    "eventType": "Visualization",
+    "logLevel": "Info"
+  }
+]

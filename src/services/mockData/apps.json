@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "appName": "Customer Portal",
+    "createdDate": "2023-08-15",
+    "status": "Active",
+    "totalUsers": 2847
+  },
+  {
+    "Id": 2,
+    "appName": "Analytics Dashboard",
+    "createdDate": "2023-09-22",
+    "status": "Active",
+    "totalUsers": 1253
+  },
+  {
+    "Id": 3,
+    "appName": "Mobile App",
+    "createdDate": "2023-10-10",
+    "status": "Development",
+    "totalUsers": 0
+  },
+  {
+    "Id": 4,
+    "appName": "API Gateway",
+    "createdDate": "2023-07-03",
+    "status": "Active",
+    "totalUsers": 3892
+  },
+  {
+    "Id": 5,
+    "appName": "Admin Console",
+    "createdDate": "2023-11-08",
+    "status": "Active",
+    "totalUsers": 156
+  },
+  {
+    "Id": 6,
+    "appName": "Reporting Tool",
+    "createdDate": "2024-01-20",
+    "status": "Maintenance",
+    "totalUsers": 789
+  }
+]

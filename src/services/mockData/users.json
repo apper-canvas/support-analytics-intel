@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 1,
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@company.com",
+    "registrationDate": "2024-01-15",
+    "lastActivity": "2024-03-12T14:30:00Z",
+    "status": "Active"
+  },
+  {
+    "Id": 2,
+    "name": "Michael Chen",
+    "email": "michael.chen@techcorp.com",
+    "registrationDate": "2023-11-22",
+    "lastActivity": "2024-03-11T09:15:00Z",
+    "status": "Active"
+  },
+  {
+    "Id": 3,
+    "name": "Emily Rodriguez",
+    "email": "emily.rodriguez@startup.io",
+    "registrationDate": "2024-02-03",
+    "lastActivity": "2024-03-10T16:45:00Z",
+    "status": "Inactive"
+  },
+  {
+    "Id": 4,
+    "name": "David Wilson",
+    "email": "david.wilson@enterprise.com",
+    "registrationDate": "2023-12-08",
+    "lastActivity": "2024-03-12T11:20:00Z",
+    "status": "Active"
+  },
+  {
+    "Id": 5,
+    "name": "Jessica Kim",
+    "email": "jessica.kim@innovation.net",
+    "registrationDate": "2024-01-30",
+    "lastActivity": "2024-03-05T08:30:00Z",
+    "status": "Pending"
+  },
+  {
+    "Id": 6,
+    "name": "Robert Thompson",
+    "email": "robert.thompson@solutions.org",
+    "registrationDate": "2023-10-14",
+    "lastActivity": "2024-03-12T13:00:00Z",
+    "status": "Active"
+  },
+  {
+    "Id": 7,
+    "name": "Amanda Foster",
+    "email": "amanda.foster@digital.com",
+    "registrationDate": "2024-02-18",
+    "lastActivity": "2024-02-28T17:15:00Z",
+    "status": "Inactive"
+  },
+  {
+    "Id": 8,
+    "name": "James Parker",
+    "email": "james.parker@systems.co",
+    "registrationDate": "2023-09-05",
+    "lastActivity": "2024-03-11T12:45:00Z",
+    "status": "Active"
+  }
+]
