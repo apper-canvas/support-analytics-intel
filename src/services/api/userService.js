@@ -49,7 +49,26 @@ class UserService {
     }
     const deletedUser = usersData.splice(index, 1)[0];
     return { ...deletedUser };
+return { ...deletedUser };
+  }
+
+  async search(searchTerm, statusFilter = null) {
+    await delay(200);
+    let results = [...usersData];
+    
+    if (searchTerm && searchTerm.trim()) {
+      const term = searchTerm.toLowerCase();
+      results = results.filter(user => 
+        user.name.toLowerCase().includes(term) ||
+        user.email.toLowerCase().includes(term) ||
+        user.Id.toString().includes(term)
+      );
+    }
+    
+    if (statusFilter && statusFilter !== 'All') {
+      results = results.filter(user => user.status === statusFilter);
+    }
+    
+    return results;
   }
 }
-
-export default new UserService();
