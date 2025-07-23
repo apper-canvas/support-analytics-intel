@@ -67,7 +67,10 @@ async delete(id) {
     if (statusFilter && statusFilter !== 'All') {
       results = results.filter(user => user.status === statusFilter);
     }
-    
-    return results;
+return results;
   }
 }
+
+// Create and export default instance
+const userService = new UserService();
+export default userService;
